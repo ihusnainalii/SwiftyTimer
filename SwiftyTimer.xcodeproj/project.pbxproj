@@ -210,7 +210,7 @@
 				TargetAttributes = {
 					3E721ABA1BF7255D008AF027 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1000;
 					};
 					6E7E40891C84B1A20030CEBB = {
 						CreatedOnToolsVersion = 7.2;
@@ -425,6 +425,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -445,6 +447,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.radex.SwiftyTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
